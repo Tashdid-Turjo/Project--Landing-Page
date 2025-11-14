@@ -73,10 +73,6 @@ body {
     border-color: #3882F6;
 }
 
-.sign-up-button {
-    border-color: white;
-}
-
 .sign-up,
 .sign-up-button {
     background-color: #3882F6;
@@ -188,4 +184,30 @@ body {
     font-weight: 900;
     margin-top: -18px;
     margin-right: -200px;
+}
+
+.content3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 100px;
+    padding: 20px 40px;
+    background-color: #3882F6;
+    color:white;
+    border-radius: 5px;
+    gap: 550px;
+}
+
+.bold-text {
+    font-size: 17px;
+    font-weight: 900;
+}
+
+.secondary-text {
+    font-size: 12px;
+    color: #cacaca;
+}
+
+.sign-up-button {
+    border-color: white;
 }

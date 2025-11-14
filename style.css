@@ -177,6 +177,11 @@ body {
 .paragraph {
     font-style: italic;
     font-size: 18px;
+    font-weight: 300;
+    color: #1F2937;
+
+    /* ?? the size doesn't suit somehow ?? */
+    /* font-size: 36px; */
 }
 
 .author {

@@ -10,13 +10,10 @@ hero secondary text, header link text- 18px #E5E7EB✅
 
 hero logo text- 24px #F9FAF8✅
 
-button color, call to action background color- #3882F6
+button color, call to action background color- #3882F6 ✅
 
-information header text
-36px #1F2937 weight: 900
+information header text- 36px #1F2937 weight: 900 ✅
 
-quote section background color
-#E5E7EB
+quote section background color- #E5E7EB ✅
 
-quote text
-36px #1F2937 weight: 300
+quote text- 36px #1F2937 weight: 300 ✅

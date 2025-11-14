@@ -1,9 +1,84 @@
 .body {
-    font: roboto;
+    font: Roboto;
+    /* margin: 0px; */
+    /* padding: 0px; */
 }
 
 .hero,
 .footer {
     background-color: #1F2937;
+    /* color: white; */
 }
 
+.hero {
+    padding: 10px 10px 70px 10px;
+
+    /* margin: auto; */
+    /* border: 100px auto green; */
+    display: flex;
+    flex-direction: column;
+    /* flex-shrink: 1; */
+}
+
+.header1 {
+    display: flex;
+    gap: 25px;
+}
+
+.header-logo {
+    font-weight: 900;
+    font-size: 24px;
+    color: #F9FAF8;
+    margin: 0px 570px auto 120px;
+    /* margin-right: 500px; */
+    /* margin-left: 120px; */
+}
+
+.header-link1,
+.header-link2,
+.header-link3 {
+    gap: 20px;
+    color: grey;
+}
+
+.header2 {
+    margin: 40px 10px auto 120px;
+    display: flex;
+    gap: 10px;
+}
+
+.pack1 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 400px;
+    gap: 10px;
+}
+
+.header-main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.header-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.pack2 {
+    /* !! By giving height value as auto,
+    !! height becomes same as pack1. */
+    /* height: auto; */
+
+    width: 400px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -200px;
+    margin-right: 117px;
+}
+
+.image-placeholder {
+    color: #E5E7EB;
+}

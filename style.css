@@ -6,7 +6,7 @@ body {
     !! So when making a website's page,
     !! I think, margin: 0px inside body is
     !! mandatory. */
-    margin: 0px;
+    margin: 0px; 
 
     /* !! padding, border doesn't work,
     !! don't know why. */

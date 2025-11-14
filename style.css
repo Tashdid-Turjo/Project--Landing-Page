@@ -1,0 +1,9 @@
+.body {
+    font: roboto;
+}
+
+.hero,
+.footer {
+    background-color: #1F2937;
+}
+

@@ -2,7 +2,10 @@ body {
     font: Roboto, Arial, sans-serif;
     
     /* !! So that, hero, content1, 2, 3,
-    !! footer's margin will be disappered. */
+    !! footer's margin will be disappered.
+    !! So when making a website's page,
+    !! I think, margin: 0px inside body is
+    !! mandatory. */
     margin: 0px;
 
     /* !! padding, border doesn't work,

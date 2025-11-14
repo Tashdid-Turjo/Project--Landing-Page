@@ -211,3 +211,9 @@ body {
 .sign-up-button {
     border-color: white;
 }
+
+.footer {
+    padding: 20px;
+    color: #E5E7EB;
+    text-align: center;
+}

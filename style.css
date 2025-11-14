@@ -10,26 +10,20 @@ body {
 
     /* !! padding, border doesn't work,
     !! don't know why. */
-    padding: 0px;
-    border: 0px;
-    /* background-color: #1F2937; */
+    /* padding: 0px; */
+    /* border: 0px; */
 }
 
 .hero,
 .footer {
     background-color: #1F2937;
-    /* color: white; */
 }
 
 .hero {
     padding: 10px 10px 70px 10px;
-
-    /* margin: auto; */
-    /* border: 2px green; */
     margin: 0;
     display: flex;
     flex-direction: column;
-    /* flex-shrink: 1; */
 }
 
 .header1 {
@@ -93,10 +87,6 @@ body {
 }
 
 .pack2 {
-    /* !! By giving height value as auto,
-    !! height becomes same as pack1. */
-    /* height: auto; */
-
     width: 880px;
     background-color: grey;
     display: flex;
@@ -110,8 +100,3 @@ body {
     color: #E5E7EB;
 }
 
-.middle-text,
-.text1,
-.text2 {
-    /* background-color: green; */
-}

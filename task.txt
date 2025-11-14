@@ -1,6 +1,6 @@
 ## colors and font styles
 
-font used- Roboto✅
+font used- Roboto✅ 
 
 dark background color (hero and footer)- #1F2937 ✅
 

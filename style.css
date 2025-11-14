@@ -161,3 +161,22 @@ body {
     margin-right: 11px;
 }
 
+.content2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(194, 191, 191);
+    padding: 40px 485px 40px 485px;
+}
+
+.paragraph {
+    font-style: italic;
+    font-size: 18px;
+}
+
+.author {
+    font-weight: 900;
+    margin-top: -18px;
+    margin-right: -200px;
+}

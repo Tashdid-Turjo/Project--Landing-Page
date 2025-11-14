@@ -1,7 +1,15 @@
-.body {
-    font: Roboto;
-    /* margin: 0px; */
-    /* padding: 0px; */
+body {
+    font: Roboto, Arial, sans-serif;
+    
+    /* !! So that, hero, content1, 2, 3,
+    !! footer's margin will be disappered. */
+    margin: 0px;
+
+    /* !! padding, border doesn't work,
+    !! don't know why. */
+    padding: 0px;
+    border: 0px;
+    /* background-color: #1F2937; */
 }
 
 .hero,
@@ -14,7 +22,8 @@
     padding: 10px 10px 70px 10px;
 
     /* margin: auto; */
-    /* border: 100px auto green; */
+    /* border: 2px green; */
+    margin: 0;
     display: flex;
     flex-direction: column;
     /* flex-shrink: 1; */
@@ -30,15 +39,13 @@
     font-size: 24px;
     color: #F9FAF8;
     margin: 0px 570px auto 120px;
-    /* margin-right: 500px; */
-    /* margin-left: 120px; */
 }
 
 .header-link1,
 .header-link2,
 .header-link3 {
     gap: 20px;
-    color: grey;
+    color: #E5E7EB;
 }
 
 .header2 {
@@ -65,20 +72,43 @@
     color: #E5E7EB;
 }
 
+.sign-up {
+    border-color: #3882F6;
+}
+
+.sign-up-button {
+    border-color: white;
+}
+
+.sign-up,
+.sign-up-button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    padding: 4px;
+    width: 100px;
+}
+
 .pack2 {
     /* !! By giving height value as auto,
     !! height becomes same as pack1. */
     /* height: auto; */
 
-    width: 400px;
+    width: 880px;
     background-color: grey;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: -200px;
-    margin-right: 117px;
+    margin-right: 100px;
 }
 
 .image-placeholder {
     color: #E5E7EB;
+}
+
+.middle-text,
+.text1,
+.text2 {
+    background-color: green;
 }

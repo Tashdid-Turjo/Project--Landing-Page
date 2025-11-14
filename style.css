@@ -167,6 +167,10 @@ body {
     align-items: center;
     justify-content: center;
     background-color: rgb(194, 191, 191);
+
+    /* ?? the color doesn't suit
+    ?? in my monitor ?? */
+    /* background-color: #E5E7EB; */
     padding: 40px 485px 40px 485px;
 }
 
